@@ -2,7 +2,7 @@
 
 int
 linear_search(int key,
-              int arr[],
+              int (*arr),
               int size)
 {
    int i;
